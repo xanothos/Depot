@@ -1,6 +1,8 @@
 require 'test_helper'
 
 class ProductTest < ActiveSupport::TestCase
+  #fixtures :products
+
   test "product attributes must not be empty" do
     product = Product.new
     assert product.invalid?
@@ -43,5 +45,11 @@ class ProductTest < ActiveSupport::TestCase
 
   def new_product(image_url)
     Product.new title: 'My test book', description: 'yyy', price: 1, image_url: image_url
+  end
+
+  test "product is invalid without a unique title" do
+    product = Product.new(title: products(:ruby).title, description: 'yyy', image_url: 'fred.jpg', price: 1)
+    assert product.invalid?
+    assert_equal [I18n.translate('errors.messages.taken')], product.errors[:title]
   end
 end

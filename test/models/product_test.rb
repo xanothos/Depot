@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class ProductTest < ActiveSupport::TestCase
-  #fixtures :products
+  fixtures :products
 
   test "product attributes must not be empty" do
     product = Product.new
@@ -54,8 +54,8 @@ class ProductTest < ActiveSupport::TestCase
   end
 
   test "title is at least 10 characters" do
-    product = Product.new(title: '123', description: 'aaa', price: 1, image_url: test.jpg)
+    product = Product.new(title: '123', description: 'aaa', price: 1, image_url: 'test.jpg')
     assert product.invalid?
-    assert_equal [I18n.translate('errors.messages.too_short')], product.errors[:title]
+    assert_equal [I18n.translate('errors.messages.too_short', count: 10)], product.errors[:title]
   end
 end

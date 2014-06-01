@@ -2,6 +2,9 @@
     <p id="notice"><%= notice %></p>
 <% end %>
 <h1>Your Pragmatic Catalog</h1>
+<% if @page_accesses > 5 %>
+    <div>You've accessed this page <%= @page_accesses %> times.</div>
+<% end %>
 <% cache ['store', Product.latest] do %>
     <% @products.each do |product| %>
         <% cache ['entry', product] do %>

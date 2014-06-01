@@ -31,8 +31,7 @@ class LineItemsController < ApplicationController
 
     respond_to do |format|
       if @line_item.save
-        # why did we add .cart here instead of using @cart???
-        format.html { redirect_to @line_item.cart, notice: 'Line item was successfully created.' }
+        format.html { redirect_to @cart, notice: 'Line item was successfully created.' }
         format.json { render :show, status: :created, location: @line_item }
       else
         format.html { render :new }

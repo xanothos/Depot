@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62718f48-1630-4574-8259-7696bd052145" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/store/index.html.erb" afterPath="$PROJECT_DIR$/app/views/store/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/line_items_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/line_items_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/store_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/store_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Depot.iws" />
@@ -559,7 +556,11 @@
       <created>1401623758396</created>
       <updated>1401623758396</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Ch9 playtime results">
+      <created>1401626021843</created>
+      <updated>1401626021843</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -633,7 +634,8 @@
     <MESSAGE value="Iteration D1" />
     <MESSAGE value="Iteration D2 - correction to cart.rb" />
     <MESSAGE value="Iteration D3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iteration D3" />
+    <MESSAGE value="Ch9 playtime results" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch9 playtime results" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

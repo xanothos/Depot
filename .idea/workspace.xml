@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62718f48-1630-4574-8259-7696bd052145" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/line_items.yml" afterPath="$PROJECT_DIR$/test/fixtures/line_items.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/line_items_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/line_items_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/line_items_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/line_items_controller_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/carts/show.html.erb" afterPath="$PROJECT_DIR$/app/views/carts/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Depot.iws" />
@@ -14,7 +18,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Depot@test__Depot.coverage" NAME="test: Depot Coverage Results" MODIFIED="1401934401193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Depot" />
+    <SUITE FILE_PATH="coverage/Depot@test__Depot.coverage" NAME="test: Depot Coverage Results" MODIFIED="1402234493993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Depot" />
     <SUITE FILE_PATH="coverage/Depot@test_all__Depot.coverage" NAME="test:all: Depot Coverage Results" MODIFIED="1402230330521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Depot" />
     <SUITE FILE_PATH="coverage/Depot@Rails_console__Depot.coverage" NAME="Rails console: Depot Coverage Results" MODIFIED="1402199610321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Depot" />
     <SUITE FILE_PATH="coverage/Depot@db_migrate__Depot.coverage" NAME="db:migrate: Depot Coverage Results" MODIFIED="1402196729000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Depot" />
@@ -35,31 +39,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="carts_controller_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/controllers/carts_controller_test.rb">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/carts/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="952">
-              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+            <state vertical-scroll-proportion="-4.3461537" vertical-offset="40" max-vertical-offset="476">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart_test.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/models/cart_test.rb">
+      <file leaf-file-name="line_items_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/line_items_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4954955" vertical-offset="77" max-vertical-offset="527">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="789" max-vertical-offset="1462">
+              <caret line="63" column="48" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="line_item_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/models/line_item_test.rb">
+      <file leaf-file-name="line_items_controller_test.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/controllers/line_items_controller_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.030303" vertical-offset="323" max-vertical-offset="969">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="line_items.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/line_items.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="carts.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/carts.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,11 +127,8 @@
         <option value="$PROJECT_DIR$/app/views/store/index.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20140601123729_add_quantity_to_line_items.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140601130102_combine_line_items_in_cart.rb" />
-        <option value="$PROJECT_DIR$/test/controllers/line_items_controller_test.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/line_items_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/carts_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/carts.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/carts/show.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20140606115801_add_product_price_to_lineitems.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140607022731_add_product_price_to_line_items.rb" />
         <option value="$PROJECT_DIR$/app/models/cart.rb" />
@@ -115,6 +136,10 @@
         <option value="$PROJECT_DIR$/test/controllers/carts_controller_test.rb" />
         <option value="$PROJECT_DIR$/test/models/line_item_test.rb" />
         <option value="$PROJECT_DIR$/test/models/cart_test.rb" />
+        <option value="$PROJECT_DIR$/app/views/carts/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/line_items_controller.rb" />
+        <option value="$PROJECT_DIR$/test/fixtures/line_items.yml" />
+        <option value="$PROJECT_DIR$/test/controllers/line_items_controller_test.rb" />
       </list>
     </option>
   </component>
@@ -203,39 +228,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Depot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Depot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Depot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Depot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
+              <option name="myItemId" value="fixtures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,24 +243,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Depot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Depot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -327,7 +302,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="cart&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/test/controllers/carts_controller_test.rb&#10;add&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/db/migrate/20140607022731_add_product_price_to_line_items.rb&#10;line&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/models/line_item.rb&#10;&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/controllers/line_items_controller.rb&#10;car&#9;null&#9;null&#10;show&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/views/carts/show.html.erb&#10;index&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/views/store/index.html.erb&#10;lin&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/test/controllers/line_items_controller_test.rb&#10;line_item&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/db/migrate/20140601123729_add_quantity_to_line_items.rb&#10;store&#9;null&#9;null&#10;resource&#9;ACTION&#9;rails:generator:resource&#10;prod&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/models/product.rb&#10;index.html&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/views/store/index.html.erb&#10;product.&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/models/product.rb&#10;develop&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/config/environments/development.rb&#10;store_con&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/test/controllers/store_controller_test.rb&#10;app&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/assets/stylesheets/application.css&#10;store.css&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/assets/stylesheets/store.css.scss&#10;p&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/models/product.rb&#10;products.y&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/test/fixtures/products.yml&#10;product_te&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/test/models/product_test.rb&#10;products&#9;null&#9;null&#10;products/&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="sho&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/views/carts/show.html.erb&#10;index.&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/views/store/index.html.erb&#10;cart&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/test/controllers/carts_controller_test.rb&#10;add&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/db/migrate/20140607022731_add_product_price_to_line_items.rb&#10;line&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/models/line_item.rb&#10;&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/controllers/line_items_controller.rb&#10;car&#9;null&#9;null&#10;show&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/views/carts/show.html.erb&#10;index&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/views/store/index.html.erb&#10;lin&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/test/controllers/line_items_controller_test.rb&#10;line_item&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/db/migrate/20140601123729_add_quantity_to_line_items.rb&#10;store&#9;null&#9;null&#10;resource&#9;ACTION&#9;rails:generator:resource&#10;prod&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/models/product.rb&#10;index.html&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/views/store/index.html.erb&#10;product.&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/models/product.rb&#10;develop&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/config/environments/development.rb&#10;store_con&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/test/controllers/store_controller_test.rb&#10;app&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/assets/stylesheets/application.css&#10;store.css&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/assets/stylesheets/store.css.scss&#10;p&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/app/models/product.rb&#10;products.y&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/test/fixtures/products.yml&#10;product_te&#9;FILE&#9;file://C:/Users/MSchouppe/Documents/Rubymine Projects/Depot/test/models/product_test.rb&#10;products&#9;null&#9;null&#10;products/&#9;null&#9;null" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -335,7 +310,7 @@
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
   </component>
-  <component name="RunManager" selected="Rake.test:all: Depot">
+  <component name="RunManager" selected="Rake.test: Depot">
     <configuration default="false" name="Rails console: Depot" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
       <module name="Depot" />
       <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -701,7 +676,11 @@
       <created>1402230739109</created>
       <updated>1402230739109</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Ch10 - Playtime 2">
+      <created>1402230771105</created>
+      <updated>1402230771105</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -726,12 +705,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="780" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6290801" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27299702" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30678466" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32743362" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264095" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23975721" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -782,7 +761,8 @@
     <MESSAGE value="Ch10 - Iteration E2 (continued)" />
     <MESSAGE value="Ch10 - Iteration E3" />
     <MESSAGE value="Ch10 - Playtime 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ch10 - Playtime 1" />
+    <MESSAGE value="Ch10 - Playtime 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch10 - Playtime 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -790,20 +770,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/fixtures/products.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/models/product_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-          <caret line="28" column="66" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/fixtures/products.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323">
@@ -947,32 +913,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/line_items_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8214286" vertical-offset="307" max-vertical-offset="935">
-          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/store/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40865386" vertical-offset="0" max-vertical-offset="624">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/concerns/current_cart.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43187067" vertical-offset="0" max-vertical-offset="433">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/carts/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8360656" vertical-offset="0" max-vertical-offset="459">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1111,14 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/carts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.4629629" vertical-offset="0" max-vertical-offset="1547">
-          <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/fixtures/products.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9051724" vertical-offset="42" max-vertical-offset="459">
@@ -1143,14 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/line_items_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.3534484" vertical-offset="303" max-vertical-offset="1411">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/controllers/carts_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="952">
@@ -1159,18 +1088,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/models/cart_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2857143" vertical-offset="77" max-vertical-offset="527">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/models/line_item_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+        <state vertical-scroll-proportion="0.52987015" vertical-offset="0" max-vertical-offset="385">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/models/cart_test.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/store/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4954955" vertical-offset="77" max-vertical-offset="527">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.19193548" vertical-offset="0" max-vertical-offset="620">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/carts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="1547">
+          <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/carts/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.3461537" vertical-offset="40" max-vertical-offset="476">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/line_items_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="789" max-vertical-offset="1462">
+          <caret line="63" column="48" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/carts.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="348">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/line_items.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/line_items_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.030303" vertical-offset="323" max-vertical-offset="969">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>

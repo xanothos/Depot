@@ -55,14 +55,12 @@ class CartsController < ApplicationController
   # DELETE /carts/1
   # DELETE /carts/1.json
   def destroy
-    notice = nil
     if @cart.id == session[:cart_id]
       @cart.destroy
       session[:cart_id] = nil
-      notice = 'Your cart is now empty.'
     end
     respond_to do |format|
-      format.html { redirect_to store_url, notice: notice }
+      format.html { redirect_to store_url }
       format.json { head :no_content }
     end
   end

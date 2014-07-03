@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Matt Schouppe
+  address: MyText
+  email: matt@theschouppes.com
+  pay_type: Check
+
+two:
+  name: Anne Schouppe
+  address: MyText
+  email: anne@theschouppes.com
+  pay_type: Purchase Order

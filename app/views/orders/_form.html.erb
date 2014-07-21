@@ -27,7 +27,8 @@
     <%= f.label :pay_type %><br>
     <%= f.select :pay_type, Order::PAYMENT_TYPES, prompt: 'Select a payment method' %>
   </div>
-  <div class="actions">
+  <span class="actions">
     <%= f.submit 'Place Order' %>
-  </div>
+  </span>
 <% end %>
+<%= button_to 'Cancel', store_path, method: :get, data: { confirm: 'Are you sure?'} %>

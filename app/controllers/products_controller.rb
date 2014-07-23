@@ -68,6 +68,8 @@ class ProductsController < ApplicationController
     if stale?(@latest_order)
       respond_to do |format|
         format.atom
+        format.json
+        format.xml { render xml: @product.to_xml(include: :orders) }
       end
     end
   end

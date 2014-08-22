@@ -13,6 +13,12 @@
       <jdbc-url>jdbc:sqlite:C:\Users\MSchouppe\Documents\Rubymine Projects\Depot\db\test.sqlite3</jdbc-url>
       <libraries />
     </data-source>
+    <data-source source="LOCAL" name="Rails blog: development" uuid="8c26149b-505e-4508-8284-eac4046df34a">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\MSchouppe\Documents\Rubymine Projects\blog\db\development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
   </component>
 </project>
 

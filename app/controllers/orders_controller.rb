@@ -1,6 +1,7 @@
 class OrdersController < ApplicationController
   include CurrentCart
   before_action :set_cart, only: [:new, :create]
+  before_action :set_payment_types, only: [:new, :create]
   before_action :set_order, only: [:show, :edit, :update, :destroy]
 
   # GET /orders
@@ -82,4 +83,8 @@ class OrdersController < ApplicationController
     def order_params
       params.require(:order).permit(:name, :address, :email, :pay_type)
     end
+
+  def set_payment_types
+    @payment_types = ChoiceList.select(:display_text, :id).where(list_name: :payment_type).order(:order).collect { |c| [ c.display_text, c.id ]}
+  end
 end

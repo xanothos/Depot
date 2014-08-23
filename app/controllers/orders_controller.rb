@@ -1,7 +1,7 @@
 class OrdersController < ApplicationController
   include CurrentCart
   before_action :set_cart, only: [:new, :create]
-  before_action :set_payment_types, only: [:new, :create]
+  before_action :set_payment_types, only: [:new, :create, :edit]
   before_action :set_order, only: [:show, :edit, :update, :destroy]
 
   # GET /orders
@@ -39,6 +39,8 @@ class OrdersController < ApplicationController
       if @order.save
         Cart.destroy(@cart.id)
         session[:cart_id] = nil
+
+        OrderNotifier.received(@order).deliver
 
         format.html { redirect_to store_url, notice: 'Thank you for your order!' }
         format.json { render :show, status: :created, location: @order }

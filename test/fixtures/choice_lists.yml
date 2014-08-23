@@ -1,13 +1,19 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  list_name: MyString
-  display_text: MyString
-  value: MyString
+  list_name: payment_type
+  display_text: Check
+  value: Check
   order: 1
 
 two:
-  list_name: MyString
-  display_text: MyString
-  value: MyString
-  order: 1
+  list_name: payment_type
+  display_text: Credit Card
+  value: Credit Card
+  order: 2
+
+three:
+  list_name: payment_type
+  display_text: Purchase Order
+  value: Purchase Order
+  order: 3
